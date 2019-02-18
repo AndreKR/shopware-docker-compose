@@ -5,7 +5,6 @@ RUN apk upgrade
 
 # Dependencies for build
 RUN apk add curl php7-apache2
-RUN mkdir /run/apache2
 
 # Dependencies to start the install wizard
 RUN apk add php7-curl php7-zip php7-json php7-session php7-mbstring php7-simplexml
